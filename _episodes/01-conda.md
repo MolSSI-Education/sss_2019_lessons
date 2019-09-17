@@ -30,7 +30,7 @@ $ conda create --name sss_2019 python=3.7
 ~~~
 {: .language-bash}
 
-For other projects, you should replace `molssi_devops` with a descriptive name for your project. `conda` also allows you to specify the python version to use with the environment. Here, `python=3.6` specifies that we want to use Python 3.6 in this environment. Executing this command will list the environment location and a list of Python packages to be installed. Choose `y(es)` when prompted.
+For other projects, you should replace `sss_2019` with a descriptive name for your project. `conda` also allows you to specify the python version to use with the environment. Here, `python=3.7` specifies that we want to use Python 3.7 in this environment. Executing this command will list the environment location and a list of Python packages to be installed. Choose `y(es)` when prompted.
 
 Activate the environment using the command
 
@@ -44,7 +44,7 @@ Once you've activated an environment, the name of the environment will be in par
 If you wanted to create an environment for testing your code in Python 2.7, for example, you could use the command
 
 ~~~
-$ conda create --name sss_201927 python=2.7
+$ conda create --name sss_2019-27 python=2.7
 ~~~
 {: .language-bash}
 
